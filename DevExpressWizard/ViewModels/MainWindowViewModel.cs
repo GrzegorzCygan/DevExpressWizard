@@ -11,7 +11,7 @@ namespace DevExpressWizard.ViewModels
         public void OpenWizard(object o)
         {
             var document = DocumentManagerService.CreateDocument("Wizard", new WizardViewModel());
-            document.Title = "wizard";
+            document.Title = "Nowa ciężarówka";
             document.Show();
         }
     }
