@@ -1,4 +1,6 @@
 ﻿using DevExpress.Mvvm;
+using DevExpress.Xpf.Controls;
+using DevExpress.Xpf.Grid;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,6 +24,7 @@ namespace DevExpressWizard.Views
         public Wizard()
         {
             InitializeComponent();
+            
         }
     }
 }

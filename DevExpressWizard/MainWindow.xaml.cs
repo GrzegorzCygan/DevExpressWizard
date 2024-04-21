@@ -1,4 +1,6 @@
-﻿using DevExpress.Xpf.Core;
+﻿using DevExpress.Xpf.Controls;
+using DevExpress.Xpf.Core;
+using DevExpressWizard.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +25,7 @@ namespace DevExpressWizard
         public MainWindow()
         {
             InitializeComponent();
+            WizardLocalizer.Active = new CustomWizardLocalizer();
         }
     }
 }
